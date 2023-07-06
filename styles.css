@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px 30%;
+  background-color: #f5f5f5;
+  color: #333333;
+  max-width: 60%;
+   
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e6f1fb;
+  border-radius: 4px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select-container select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.container-preguntas {
+  margin-top: 30px;
+}
+
+.pregunta {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.pregunta h3 {
+  margin-top: 0;
+}
+
+.respuestas {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.respuestas li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.respuestas li:hover {
+  background-color: #2980b9;
+}
+
+.respuesta-correcta {
+  background-color: #2ecc71 !important;
+}
+
+.respuesta-incorrecta {
+  background-color: #e74c3c !important;
+}
+
+.puntaje {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+  .button {
+    backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#44bbdd 0%,#40b5d6 30%,#30a5c6 65%,#129abc 100%);
+  border-radius: 8px;
+  border: 0px solid #379;
+  border-width: 0px 0px 5px 0px;
+  padding: 9px 15px 6px 15px;
+  box-shadow: inset 0px 1px 3px rgba(255,255,255,.4);
+    color: #fff;
+  font-size: initial;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+
+  .button:hover{
+     scale: 1.1;
+     transition: 1.7;
+     
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    color: #fff;
+  font-size: 1em;
+  background: rgba(0,0,0,0.2);
+  border-radius: 100px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 10px;
+  position: static;
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,0.4),inset 0px -1px 0px rgba(255,255,255,.5)
+  }
+  .button > .ld {
+    font-size: initial
+  }

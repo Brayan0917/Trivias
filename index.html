@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Trivias</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Generador de Trivias</h1>
+    <div class="select-container">
+      <label for="dificultad">Dificultad:</label>
+      <select id="dificultad">
+        <option value="easy">Fácil</option>
+        <option value="medium">Intermedia</option>
+        <option value="hard">Difícil</option>
+      </select>
+    </div>
+    <div class="select-container">
+      <label for="tipo">Tipo de Respuesta:</label>
+      <select id="tipo">
+        <option value="multiple">Múltiple</option>
+        <option value="boolean">Verdadero/Falso</option>
+      </select>
+    </div>
+    <div class="select-container">
+      <label for="categoria">Categoría:</label>
+      <select id="categoria">
+        <option value="9">Conocimiento General</option>
+        <option value="10">Entretenimiento: Libros</option>
+        <option value="11">Entretenimiento: Películas</option>
+        <option value="12">Entretenimiento: Música</option>
+        <option value="13">Entretenimiento: Musicales y Teatro</option>
+        <option value="14">Entretenimiento: Televisión</option>
+        <option value="15">Entretenimiento: Videojuegos</option>
+        <option value="16">Entretenimiento: Juegos de Mesa</option>
+        <option value="17">Ciencia y Naturaleza</option>
+        <option value="18">Ciencia: Computadoras</option>
+        <option value="19">Ciencia: Matemáticas</option>
+        <option value="20">Mitología</option>
+        <option value="21">Deportes</option>
+        <option value="22">Geografía</option>
+        <option value="23">Historia</option>
+        <option value="24">Política</option>
+        <option value="25">Arte</option>
+        <option value="26">Celebridades</option>
+        <option value="27">Animales</option>
+        <option value="28">Vehículos</option>
+        <option value="29">Entretenimiento: Cómics</option>
+        <option value="30">Ciencia: Gadgets</option>
+        <option value="31">Entretenimiento: Anime y Manga</option>
+        <option value="32">Entretenimiento: Dibujos Animados</option>
+      </select>
+    </div>
+    <button id="generarButton" class="button">Generar Trivia</button>
+    <div id="contenedorPreguntas" class="container-preguntas" style="display: none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
