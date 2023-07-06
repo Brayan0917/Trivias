@@ -39,7 +39,7 @@ function mostrarSiguientePregunta() {
     respuestasElemento.classList.add('respuestas');
 
     const todasRespuestas = [...preguntaActual.incorrect_answers, preguntaActual.correct_answer];
-    todasRespuestas.sort(() => Math.random() - 0.5); // Mezcla las respuestas
+    todasRespuestas.sort(() => Math.random() - 0.5); 
 
     todasRespuestas.forEach(respuesta => {
       const respuestaElemento = document.createElement('li');
